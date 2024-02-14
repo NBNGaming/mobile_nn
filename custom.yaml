@@ -1,0 +1,7 @@
+path: dataset/
+train: train/images
+val: val/images
+names:
+  '0': banknote
+  '1': coin
+  '2': bank_card

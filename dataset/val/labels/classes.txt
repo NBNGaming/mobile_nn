@@ -1,0 +1,3 @@
+banknote
+coin
+bank_card

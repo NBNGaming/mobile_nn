@@ -1,0 +1,13 @@
+docker build -t yolo .
+
+Train:
+docker run --gpus all --shm-size 4G --rm -it -v .\dataset:/usr/src/app/datasets/dataset -v .\results:/usr/src/app/results yolo python3 train.py
+
+Val:
+docker run --gpus all --shm-size 4G --rm -it -v .\dataset:/usr/src/app/datasets/dataset -v .\results:/usr/src/app/results yolo python3 val.py
+
+LabelImg:
+conda activate label-py39
+E:
+cd E:\mmcs\mobile_nn\labelImg-master
+python labelImg.py

@@ -50,11 +50,15 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     private int mImageIndex = 0;
     private String[] mTestImages = {
             "banknote-1.jpg",
-            "banknote-2.jpg",
+            "banknote-2.png",
             "banknote-3.jpg",
+            "banknote-4.jpg",
+            "banknote-5.jpg",
             "banknote-6.jpg",
             "banknote-7.jpg",
             "banknote-8.jpg",
+            "banknote-9.jpg",
+            "banknote-10.jpg",
             "card-1.jpg",
             "card-2.jpg",
             "card-3.jpg",
@@ -64,6 +68,11 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             "card-7.jpg",
             "card-8.png",
             "card-9.jpg",
+            "card-10.jpg",
+            "card-12.jpg",
+            "card-13.png",
+            "card-14.jpg",
+            "card-15.jpg",
             "coin-1.jpg",
             "coin-2.jpg",
             "coin-3.jpg",
@@ -71,6 +80,11 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             "coin-5.jpg",
             "coin-6.jpg",
             "coin-7.jpg",
+            "coin-8.jpg",
+            "coin-9.jpg",
+            "coin-10.jpg",
+            "coin-11.jpg",
+            "coin-12.jpg",
     };
 
     private ImageView mImageView;

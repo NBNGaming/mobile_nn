@@ -6,5 +6,5 @@ from ultralytics import YOLO
 
 # model = YOLO('yolov8s.pt').to(device)
 model = YOLO('yolov8s.pt')
-model.train(data='custom.yaml', device='cpu', epochs=70, batch=10, project='results')
+model.train(data='custom.yaml', device='cpu', epochs=300, batch=10, project='results')
 model.export(format='torchscript', optimize=True)
